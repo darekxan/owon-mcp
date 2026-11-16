@@ -1,0 +1,11 @@
+# Replace every /absolute/path/to/owon-mcp with your checkout location.
+# Windows: use .venv/Scripts/owon-mcp.exe and forward slashes in TOML paths.
+[mcp_servers.owon]
+command = "/absolute/path/to/owon-mcp/.venv/bin/owon-mcp"
+args = ["--export-dir", "/absolute/path/to/owon-mcp/exports"]
+cwd = "/absolute/path/to/owon-mcp"
+enabled = true
+startup_timeout_sec = 10
+tool_timeout_sec = 30
+
+# Add "--allow-control" to args only when acquisition/setting writes are wanted.

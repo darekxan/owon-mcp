@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "owon": {
+      "command": "/absolute/path/to/owon-mcp/.venv/bin/owon-mcp",
+      "args": [
+        "--export-dir",
+        "/absolute/path/to/owon-mcp/exports"
+      ]
+    }
+  }
+}

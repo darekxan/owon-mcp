@@ -1,0 +1,7 @@
+OWON MCP uses OWON Scope Web by Francisco Mesas Cervilla (MIT License).
+https://github.com/fmesasc/owon-scope-web
+Pinned source revision: cb86012000048b8441318a293fe7a41a83f98023
+
+USB transport, protocol detection, waveform decoding, and oscilloscope controls
+are provided by that dependency. The upstream license is distributed with it.
+OWON is a trademark of its owner. This project is independently developed.
